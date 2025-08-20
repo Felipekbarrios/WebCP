@@ -46,20 +46,23 @@
         #taça-img{
             width: 100px;
             height: 100px;
-            margin-left: -250px;
+            margin-left: -330px;
 
 
         }
 
         #SerieA1-title{
             margin-top: 50px;
+            margin-left: 20px;
 
 
         }
 
         #container-SerieA1{
             display: flex;
-            justify-content: center;
+            justify-content: center;\
+            align-items: center;
+            margin-right: 100px;
 
 
         }
@@ -88,7 +91,7 @@
             <h1 id="SerieA1-title">Serie A1</h1>
         </div>
         <div>
-          <table>
+          <table border="2" style="width: 100%; text-align: center; margin-top: 20px;">
                     <tr><td><img class="images-a1" src="img/da.png" alt=""></td><td>Água Santa</td></tr>
                     <tr><td><img class="images-a1" src="img/botafogo-ribeiro.png" alt=""></td><td>Botafogo‑SP</td></tr>
                     <tr><td><img class="images-a1" src="img/RedBullBragantino.png" alt=""></td><td>Bragantino</td></tr>

@@ -8,7 +8,7 @@
 
         body{
             margin: 0;
-
+            background-image: url("img/campodes");
 
         }
 
@@ -46,24 +46,34 @@
         #taça-img{
             width: 100px;
             height: 100px;
-            margin-left: -250px;
+            margin-left: -330px;
 
 
         }
 
-        #SerieA1-title{
+        #SerieA2-title{
             margin-top: 50px;
+            margin-left: 20px;
 
 
         }
 
-        #container-SerieA1{
+        #container-SerieA2{
             display: flex;
-            justify-content: center;
+            justify-content: center;\
+            align-items: center;
+            margin-right: 100px;
 
 
         }
 
+        .images-a2{
+            width: 100px;
+            height: 100px;
+
+
+
+        }
 
 
     </style>
@@ -77,30 +87,29 @@
             <a href="/"><button class="buttons">A1</button></a>
             </div>
         </div>
-        <div id="container-SerieA1">
-            <h1 id="SerieA1-title">Serie A1</h1>
+        <div id="container-SerieA2">
+            <h1 id="SerieA2-title">Serie A2</h1>
         </div>
-        <div> 
-            <table>
-                    <tr><td>Primavera</td></tr>
-                    <tr><td>Capivariano</td></tr>
-                    <tr><td>Ituano</td></tr>
-                    <tr><td>Taubaté</td></tr>
-                    <tr><td>São José‑SP</td></tr>
-                    <tr><td>Ferroviária</td></tr>
-                    <tr><td>XV de Piracicaba‑SP</td></tr>
-                    <tr><td>Santo André‑SP</td></tr>
-                    <tr><td>Grêmio Prudente</td></tr>
-                    <tr><td>Oeste</td></tr>
-                    <tr><td>Juventus</td></tr>
-                    <tr><td>Linense</td></tr>
-                    <tr><td>Votuporanguense</td></tr>
-                    <tr><td>São Bento</td></tr>
-                    <tr><td>Portuguesa Santista</td></tr>
-                    <tr><td>Rio Claro</td></tr>
+        <div>
+          <table border="2" style="width: 100%; text-align: center; margin-top: 20px;">
+                    <tr>><td><img class="images-a2" src="img/primavera.png" alt=""><td>Primavera</td></tr>
+                    <tr>><td><img class="images-a2" src="img/capivariano.png" alt=""><td>Capivariano</td></tr>
+                    <tr>><td><img class="images-a2" src="img/ituano.png" alt=""><td>Ituano</td></tr>
+                    <tr>><td><img class="images-a2" src="img/taubate.png" alt=""><td>Taubaté</td></tr>
+                    <tr>><td><img class="images-a2" src="img/saojose.png" alt=""><td>São José‑SP</td></tr>
+                    <tr>><td><img class="images-a2" src="img/ferroviaria.png" alt=""><td>Ferroviária</td></tr>
+                    <tr>><td><img class="images-a2" src="img/xvpiracicaba.png" alt=""><td>XV de Piracicaba‑SP</td></tr>
+                    <tr>><td><img class="images-a2" src="img/santoandre.png" alt=""><td>Santo André‑SP</td></tr>
+                    <tr>><td><img class="images-a2" src="img/gremioprudente.png" alt=""><td>Grêmio Prudente</td></tr>
+                    <tr>><td><img class="images-a2" src="img/oeste.png" alt=""><td>Oeste</td></tr>
+                    <tr>><td><img class="images-a2" src="img/juventus.png" alt=""><td>Juventus</td></tr>
+                    <tr>><td><img class="images-a2" src="img/linense.png" alt=""><td>Linense</td></tr>
+                    <tr>><td><img class="images-a2" src="img/votapureguense.png" alt=""><td>Votuporanguense</td></tr>
+                    <tr>><td><img class="images-a2" src="img/saobento.png" alt=""><td>São Bento</td></tr>
+                    <tr>><td><img class="images-a2" src="img/portuguesasantista.png" alt=""><td>Portuguesa Santista</td></tr>
+                    <tr>><td><img class="images-a2" src="img/rioclaro.png" alt=""><td>Rio Claro</td></tr>
             </table>
-
         </div>
-    </div>
+        </div>
 </body>
 </html>
